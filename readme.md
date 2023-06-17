@@ -9,6 +9,8 @@
 - Install lua (latest)
 - Install node & npm
 - Remove `/plugin` directory that includes packer_compiled.lua file.
+- Make sure to add `nvim/bin/` to the PATH
+  - .bashrc `export PATH="/path/to/nvim/elf:$PATH"`
 
 Something went wrong with git that ignored the after dir completely 
 unless I change the the plugin dir name to something else...
