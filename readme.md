@@ -8,7 +8,7 @@
 - Install wbthomason/packer.nvim
 - Install lua (latest)
 - Install node & npm
-- Remove `/plugin/packer_compiled` file.
+- Remove `/plugin` directory that includes packer_compiled.lua file.
 
 Something went wrong with git that ignored the after dir completely 
 unless I change the the plugin dir name to something else...
