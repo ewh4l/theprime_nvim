@@ -4,7 +4,10 @@
 
 ## pre-config list
 - Install neovim >= 0.9.0
-  - Just have to move `/nvim-linux64/bin/nvim` executable to `/usr/local/bin`
+  - `mv ~Downloads/nvim-linux64/bin/nvim-linux64 /opt/nvim`
+  - Add this lines in .zshrc
+    - `export NVIM="/opt/nvim/bin/"`
+    - `export PATH="$NVIM:$PATH"`
 - Install wbthomason/packer.nvim
 - Install lua (latest)
 - Install node & npm
