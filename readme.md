@@ -12,7 +12,14 @@
 - Install lua (latest)
 - Install node & npm
 - Remove `/plugin` directory that includes packer_compiled.lua file(if it's generated.).
+- `cd .config/nvim/lua/ewhal/packer.lua`
+  - `:PackerInstall`
+- `:Mason`
+  - Install all necessary language-servers.  
 
+---
+
+### Memo
 Something went wrong with git that ignored the after dir completely 
 unless I change the the plugin dir name to something else...
 
