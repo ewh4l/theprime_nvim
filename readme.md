@@ -1,5 +1,6 @@
 # Neovim by theprimeagen
 
+- Thank you [theprimeagen](https://www.youtube.com/@ThePrimeTimeagen) for introducing me the whole new world!
 - Change after/plugin2/* to after/plugin/*
 
 ## pre-config list
