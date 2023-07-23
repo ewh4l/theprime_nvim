@@ -4,7 +4,8 @@
 - Change after/plugin2/* to after/plugin/*
 
 ## pre-config list
-- Install neovim >= 0.9.0
+- Install neovim >= 0.9.0 (method 1)
+  - You could just do `sudo snap install nvim --classic`. If this doesn't work, do the below.
   - `mv ~Downloads/nvim-linux64/bin/nvim-linux64 /opt/nvim`
   - Add this lines in .zshrc
     - `export NVIM="/opt/nvim/bin/"`
