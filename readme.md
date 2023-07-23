@@ -11,6 +11,7 @@
     - `export NVIM="/opt/nvim/bin/"`
     - `export PATH="$NVIM:$PATH"`
 - Install wbthomason/packer.nvim
+  - [packer.vim#quickstart](https://github.com/wbthomason/packer.nvim#quickstart) 
 - Install lua (latest)
 - Install node & npm
 - Remove `/plugin` directory that includes packer_compiled.lua file(if it's generated.).
