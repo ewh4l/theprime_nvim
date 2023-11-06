@@ -16,6 +16,7 @@
 - Install node & npm
 - Remove `/plugin` directory that includes packer_compiled.lua file(if it's generated.).
 - `cd .config/nvim/lua/ewhal/packer.lua`
+  - `:so`
   - `:PackerInstall`
 - `:Mason`
   - Install all necessary language-servers.  
