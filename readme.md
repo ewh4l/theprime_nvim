@@ -11,19 +11,11 @@
     - `export NVIM="/opt/nvim/bin/"`
     - `export PATH="$NVIM:$PATH"`
 - Install wbthomason/packer.nvim
-  - [packer.vim#quickstart](https://github.com/wbthomason/packer.nvim#quickstart) 
-- Install lua (latest)
-- Install node & npm
-- Remove `/plugin` directory that includes packer_compiled.lua file(if it's generated.).
+  - [packer.vim #quickstart](https://github.com/wbthomason/packer.nvim#quickstart) 
+- `sudo apt install lua5.3` (latest version)
+- `sudo apt install nodejs npm`
 - `cd .config/nvim/lua/ewhal/packer.lua`
   - `:so`
   - `:PackerInstall`
 - `:Mason`
   - Install all necessary language-servers.  
-
----
-
-### Memo
-Something went wrong with git that ignored the after dir completely 
-unless I change the the plugin dir name to something else...
-
