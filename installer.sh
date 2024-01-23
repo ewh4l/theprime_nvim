@@ -12,7 +12,7 @@ if [ "$current_dir" = "$config_dir" ]; then
     cd nvim
 
     echo "Installing nvim..."
-    sudo snap -y install nvim --classic
+    sudo snap install nvim --classic
     if [ $? -eq 0 ]; then
         echo "nvim installed!"
     else
